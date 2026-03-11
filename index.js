@@ -32,6 +32,10 @@ server.use('/api', cartRouter)
 server.use('/api', categoryRouter)
 server.use('/api', orderRouter)
 
+app.get("/", (req, res) => {
+    res.json({ message: "API running on Vercel 🚀" })
+})
+
 // server.listen(port, () => {
 //     console.log(`Server is listening on port ${port}`)
 // })
