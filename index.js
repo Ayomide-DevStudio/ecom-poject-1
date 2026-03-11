@@ -32,6 +32,6 @@ server.use('/api', cartRouter)
 server.use('/api', categoryRouter)
 server.use('/api', orderRouter)
 
-server.listen(port, () => {
-    console.log(`Server is listening on port ${port}`)
-})
+// server.listen(port, () => {
+//     console.log(`Server is listening on port ${port}`)
+// })
